@@ -1,20 +1,20 @@
 {
-	"username": "Excalith",
-	"title": "Excalith Start Page",
+	"username": "joao",
+	"title": "jpedrodelacerda - Start Page",
 	"theme": {
-		"name": "Default",
-		"backgroundColor": "#121317",
-		"windowColor": "#1e212b",
-		"textColor": "#e2e2e2",
-		"black": "#16161e",
-		"red": "#ec6183",
-		"green": "#2ed8a2",
-		"yellow": "#e8b195",
-		"blue": "#2bc3de",
-		"magenta": "#d1aff8",
-		"cyan": "#62e0e2",
-		"white": "#e2e2e2",
-		"gray": "#97989d"
+		"name": "Solarized Light",
+		"backgroundColor": "#fdf6e3",
+		"windowColor": "#eee8d5",
+		"textColor": "#657b83",
+		"black": "#002b36",
+		"red": "#dc322f",
+		"green": "#859900",
+		"yellow": "#b58900",
+		"blue": "#268bd2",
+		"magenta": "#d33682",
+		"cyan": "#2aa198",
+		"white": "#ffffff",
+		"gray": "#93a1a1;"
 	},
 	"wallpaper": {
 		"url": "assets/default-wallpaper.svg",
@@ -86,11 +86,6 @@
 				"url": "https://duckduckgo.com/?q=!ducky+{}"
 			},
 			{
-				"alias": "b",
-				"name": "Brave Search",
-				"url": "https://search.brave.com/search?q={}"
-			},
-			{
 				"alias": "gh",
 				"name": "Github Search",
 				"url": "https://github.com/search?q={}"
@@ -115,34 +110,39 @@
 	"sections": {
 		"list": [
 			{
-				"title": "General",
+				"title": "general",
 				"color": "green",
 				"align": "left",
 				"links": [
 					{
-						"name": "Portfolio",
-						"url": "https://cancellek.com",
-						"icon": "mdi:web"
+						"name": "Gmail",
+						"url": "https://gmail.com/",
+						"icon": "mdi:mail"
 					},
 					{
-						"name": "Keybase",
-						"url": "https://keybase.io/",
-						"icon": "fa-brands:keybase"
+						"name": "Diário de Bordo",
+						"url": "https://ddb.jpedrodelacerda.com",
+						"icon": "mdi:pencil"
 					},
 					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/",
-						"icon": "simple-icons:openai"
+						"name": "YouTube",
+						"url": "https://youtube.com",
+						"icon": "mdi:youtube"
 					},
 					{
-						"name": "OCI",
-						"url": "https://www.oracle.com/cloud/",
-						"icon": "simple-icons:oracle"
+						"name": "PocketCasts",
+						"url": "https://pocketcasts.com/podcasts",
+						"icon": "simple-icons:pocketcasts"
+					},
+					{
+						"name": "Spotify",
+						"url": "https://open.spotify.com",
+						"icon": "simple-icons:spotify"
 					}
 				]
 			},
 			{
-				"title": "Dev",
+				"title": "dev",
 				"color": "magenta",
 				"align": "left",
 				"links": [
@@ -152,127 +152,107 @@
 						"icon": "mdi:github"
 					},
 					{
-						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "ph:gitlab-logo-simple-fill"
+						"name": "Codeberg",
+						"url": "https://codeberg.org",
+						"icon": "simple-icons:codeberg"
 					},
 					{
-						"name": "Dev.to",
-						"url": "https://dev.to",
-						"icon": "material-symbols:logo-dev"
+						"name": "NixOS - Search",
+						"url": "https://search.nixos.org",
+						"icon": "simple-icons:nixos"
 					},
 					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
+						"name": "HM Options",
+						"url": "https://home-manager-options.extranix.com/",
+						"icon": "simple-icons:nixos"
 					}
 				]
 			},
 			{
-				"title": "Social",
+				"title": "social",
 				"color": "cyan",
 				"align": "left",
 				"links": [
 					{
-						"name": "Twitter",
+						"name": "twitter",
 						"url": "https://twitter.com",
 						"icon": "mdi:twitter"
 					},
 					{
-						"name": "Mastodon",
-						"url": "https://mastodon.social/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "Reddit",
+						"name": "reddit",
 						"url": "https://reddit.com",
 						"icon": "mdi:reddit"
-					},
-					{
-						"name": "Polywork",
-						"url": "https://polywork.com",
-						"icon": "simple-icons:polywork"
 					}
 				]
 			},
 			{
-				"title": "Gaming",
+				"title": "fun",
 				"color": "red",
 				"align": "left",
 				"links": [
 					{
-						"name": "Polygon",
-						"url": "https://polygon.com",
-						"icon": "uil:polygon"
+						"name": "steam",
+						"url": "https://store.steampowered.com/",
+						"icon": "simple-icons:steam"
 					},
 					{
-						"name": "IGN",
-						"url": "https://ign.com",
-						"icon": "mdi:currency-sign"
+						"name": "lichess",
+						"url": "https://lichess.org",
+						"icon": "simple-icons:lichess"
 					},
 					{
-						"name": "RPS",
-						"url": "https://rockpapershotgun.com/",
-						"icon": "ph:toilet-paper-bold"
-					},
-					{
-						"name": "80lv",
-						"url": "https://80.lv/",
-						"icon": "tabler:hand-rock"
+						"name": "chess.com",
+						"url": "https://chess.com",
+						"icon": "simple-icons:chessdotcom"
 					}
 				]
 			},
 			{
-				"title": "Science",
+				"title": "study",
 				"color": "blue",
 				"align": "left",
 				"links": [
 					{
-						"name": "PopSci",
-						"url": "https://popsci.com/",
-						"icon": "material-symbols:science"
+						"name": "Moodle - COS",
+						"url": "https://moodle.cos.ufrj.br/",
+						"icon": "simple-icons:moodle"
 					},
 					{
-						"name": "Space",
-						"url": "fa6-solid:user-astronaut",
-						"icon": "mdi:reddit"
-					},
-					{
-						"name": "NASA",
-						"url": "https://blogs.nasa.gov/",
-						"icon": "simple-icons:nasa"
-					},
-					{
-						"name": "ESA",
-						"url": "https://blogs.esa.int/",
-						"icon": "mdi:black-mesa"
+						"name": "PoliMoodle",
+						"url": "https://polimoodle.poli.ufrj.br/",
+						"icon": "simple-icons:moodle"
 					}
 				]
 			},
 			{
-				"title": "Tech",
+				"title": "media",
 				"color": "yellow",
 				"align": "left",
 				"links": [
 					{
-						"name": "TechCrunch",
-						"url": "https://techcrunch.com/",
-						"icon": "game-icons:techno-heart"
+						"name": "HBO",
+						"url": "https://www.max.com/br/pt",
+						"icon": "simple-icons:hbo"
 					},
 					{
-						"name": "Verge",
-						"url": "https://www.theverge.com/",
-						"icon": "arcticons:verge"
+						"name": "Disney",
+						"url": "https://www.disneyplus.com/",
+						"icon": "tabler:brand-disney"
 					},
 					{
-						"name": "It's Foss",
-						"url": "https://itsfoss.com/",
-						"icon": "ri:mastodon-fill"
+						"name": "Globoplay",
+						"url": "https://globoplay.com/",
+						"icon": "mdi:television"
 					},
 					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "uil:linux"
+						"name": "Prime Video",
+						"url": "https://primevideo.com/",
+						"icon": "simple-icons:primevideo"
+					},
+					{
+						"name": "Netflix",
+						"url": "https://netflix.com/",
+						"icon": "mdi:netflix"
 					}
 				]
 			}
